@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("./Background.jpg") no-repeat center fixed;
+}
+.form {
+  border: 1px solid rgb(245, 243, 243);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  height: 600px;
+  width: 400px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border: 1px solid rgba(255, 255, 255, 0.27);
+}
+/* common style */
+
+
+.icon {
+  position: absolute;
+  margin-top: 3px;
+  font-size: 20px;
+  padding-right: 5px;
+  color: #313030;
+}
+
+.icon:last-child {
+  position: relative;
+}
+.eye {
+  position: absolute;
+  margin-top: -29px;
+  margin-left: 300px;
+}
+
+.remember {
+  position: relative;
+  width: 100%;
+  color: #161616;
+  font-size: 18px;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  padding: 10px;
+}
+
+
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #dbdbdb;
+  font-size: 20px;
+  width: 1000%;
+  height: 30px;
+  position: relative;
+  padding-left: 28px;
+}
+
+.username,
+.email,
+.cpassword,
+.password,
+.remember {
+  padding: 20px 0px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"]:focus {
+  outline: none;
+}

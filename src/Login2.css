@@ -1,0 +1,141 @@
+.login2 {
+  padding: 30px 20px 10px 10px;
+  margin-top: 10px;
+}
+.toggleButton {
+  width: 220px;
+  position: relative;
+  margin: 10px 45px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px 2px #fff;
+  border-radius: 30px;
+}
+.toogle-btn {
+  padding: 12px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+.toogle-btn:first-child {
+  padding-left: 34px;
+}
+.toogle-btn:last-child {
+  padding-left: 48px;
+}
+#toogle_btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(120deg, #fc2069, #fdb017);
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 10px;
+  margin-left: -20px;
+}
+.social-icons div {
+  color: #fff;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 0 15px;
+  padding: 15px 15px;
+  box-shadow: 0 0 20px 2px #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  background: linear-gradient(120deg, #ff105f, #ffad06);
+}
+.submit-btn {
+  width: 180px;
+  padding: 30px 30px 20px 5px;
+  /* padding-left: 10%; */
+  margin-left: 15px;
+  
+}
+.submit-btn input[type="submit"] {
+  background: linear-gradient(120deg, #ff105f, #ffad06);
+  width: 100%;
+  height: 28px;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+  height: 45px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  margin: 0px 80px;
+  box-shadow: 0 0 20px 2px #fff;
+}
+form {
+  position: absolute;
+  transition: 0.5s;
+}
+
+#login {
+  position: relative;
+}
+#signup {
+  margin-top: -278px;
+  position: relative;
+  left: 450px;
+}
+.form-box {
+  overflow: hidden;
+}
+
+.accept p {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: -3px;
+  color: #fff;
+}
+
+.already-account {
+  padding: 5px 30px 20px 20px;
+  font-size: 18px;
+  color: #fff;
+}
+.already-account span {
+  color: rgb(43, 40, 248);
+  font-weight: 700;
+  font-size: 19px;
+}
+.remember p {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -3px;
+  color: #fff;
+}
+
+.remember p:last-child {
+  margin-left: 200px;
+}
+
+.no-account {
+  padding: 20px 30px 20px 20px;
+  font-size: 18px;
+  color: #fff;
+}
+.no-account span {
+  color: rgb(234, 248, 40);
+  font-weight: 700;
+}
+
+.error-border {
+  border-bottom: 1px solid red !important;
+}
+.error-msg {
+  color: red;
+  margin-bottom: 10px;
+  margin-top: -14px;
+}
